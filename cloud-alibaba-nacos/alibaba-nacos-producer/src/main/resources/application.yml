@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: nacos-producer
+  #   微服务的配置信息
+  cloud:
+    nacos:
+      discovery:
+        # 注册中心的地址 多个注册中心 使用,隔开
+        server-addr: 121.196.109.61:8848
+
